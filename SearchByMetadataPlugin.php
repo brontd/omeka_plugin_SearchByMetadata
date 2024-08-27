@@ -77,7 +77,7 @@ class SearchByMetadataPlugin extends Omeka_Plugin_AbstractPlugin
         
         $record = $args['record'];
         $elementText = $args['element_text'];
-        if (trim($text) == '' || !$elementText) return $text;
+        if (trim($text) ?? '' == '' || !$elementText) return $text;
 
         $elementId = $elementText->element_id;
         $url = url('items/browse', array(
