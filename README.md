@@ -13,9 +13,6 @@
 ## UK Library Customization
 
   [config_form.php](/config_form.php)
-  
-  [plugin.ini](/plugin.ini)
-  
-  [SearchByMetadataPlugin.php](/SearchByMetadataPlugin.php)
+
 
   
